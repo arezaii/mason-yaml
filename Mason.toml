@@ -1,0 +1,14 @@
+
+[brick]
+chplVersion = "2.1.0"
+license = "None"
+name = "YAML"
+type = "library"
+version = "0.1.0"
+
+[dependencies]
+
+[external]
+libyaml = "libyaml@0.2.5"
+
+
