@@ -1,0 +1,10 @@
+This is an attempt to replace the Chapel YAML package with a mason package.
+
+
+Make sure mason external has been initialized:
+`mason exteranl --setup`
+
+Then, to make this work, you'll need to install the `libyaml` package by using
+`mason external install libyaml`
+
+Check that it is working by running `mason test`
